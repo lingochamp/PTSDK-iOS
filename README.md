@@ -10,7 +10,7 @@ PTSDK 为流利说提供给第三方的服务。该 Repo 用于提供 iOS 版本
 ### 安装
 
 #### 手动集成
-1. 把 PTSDK.framework 加入项目中 (当前稳定版本下载地址为: [Chun 待补充](Chun 待补充))
+1. 把 PTSDK.framework 加入项目中 (当前稳定版本下载地址为: [https://github.com/lingochamp/PTSDK-iOS/tree/develop/Frameworks/1.0](https://github.com/lingochamp/PTSDK-iOS/tree/develop/Frameworks/1.0))
 2. 在项目的 target settings 中的 "General" tab，点击 "Embedded Binaries" 下方加号，添加 "PTSDK.framework"
 3. 检查 Build Settings 里面 Framework Search Paths 路径设置是否正确
 
@@ -57,7 +57,7 @@ iOS PTSDK 最小支持的 iOS 版本为： iOS 8.0
 1. PTSDK 内部会持有外部传入的`tokenProvider`对象。
 2. `fetchTokenWithCompletionHandler` 接口用于 PTSDK 拉取最新有效的 Token。 
 3. `invalidToken` 接口用于 PTSDK 告诉实现方当前 cache 的 Token 已经失效。 
-4. 第三发开发者应该从自己的 Backend API 获取到用于 PTSDK 的 Token。（关于 PTSDK 流利说提供的获取 Token 服务文档地址如下：[Chun 待补充](Chun 待补充)）
+4. 第三发开发者应该从自己的 Backend API 获取到用于 PTSDK 的 Token。（关于 PTSDK 流利说提供的获取 Token 服务文档地址如下：[Chun 待补充](https://github.com/lingochamp)）
 5. 具体 TokenProvider 的实现可参考 demo。
 
 
