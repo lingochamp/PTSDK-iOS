@@ -10,7 +10,7 @@ PTSDK 为流利说提供给第三方的服务。该 Repo 用于提供 iOS 版本
 ### 安装
 
 #### 手动集成
-1. 把 PTSDK.framework 加入项目中 (当前稳定版本下载地址为: [https://github.com/lingochamp/PTSDK-iOS/tree/develop/Frameworks/1.0](https://github.com/lingochamp/PTSDK-iOS/tree/develop/Frameworks/1.0))
+1. 把 PTSDK.framework 加入项目中 (当前稳定版本下载地址为: [PTSDK 1.0](https://github.com/lingochamp/PTSDK-iOS/tree/master/Frameworks/1.0))
 2. 在项目的 target settings 中的 "General" tab，点击 "Embedded Binaries" 下方加号，添加 "PTSDK.framework"
 3. 检查 Build Settings 里面 Framework Search Paths 路径设置是否正确
 
