@@ -57,7 +57,7 @@ iOS PTSDK 最小支持的 iOS 版本为： iOS 8.0
 1. PTSDK 内部会持有外部传入的`tokenProvider`对象。
 2. `fetchTokenWithCompletionHandler` 接口用于 PTSDK 拉取最新有效的 Token。 
 3. `invalidToken` 接口用于 PTSDK 告诉实现方当前 cache 的 Token 已经失效。 
-4. 第三发开发者应该从自己的 Backend API 获取到用于 PTSDK 的 Token。（关于 PTSDK 流利说提供的获取 Token 服务文档地址如下：[Chun 待补充](https://github.com/lingochamp)）
+4. 第三发开发者应该从自己的 Backend API 获取到用于 PTSDK 的 Token。（关于 PTSDK 流利说提供的获取 Token 服务文档地址如下：[https://github.com/lingochamp/PTSDK-Service](https://github.com/lingochamp/PTSDK-Service)）
 5. 具体 TokenProvider 的实现可参考 demo。
 
 
